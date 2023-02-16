@@ -1,0 +1,63 @@
+16-02-2023
+Day 3
+NOTES
+1.Control statements in java
+There are various control statements similar to c++
+•	If
+•	If else
+•	Switch case
+•	Loops (while, for, do while)
+2. For I/O java gives us a scanner class to take the input frm the user end.
+This class are using 2 modes
+•	System.in - input
+•	System.out – output
+3.In java development we can use 2 classes
+•	Custom classes – made by the developer
+•	Library classes – part of java library
+
+
+
+4.Design the menus of CRS application based on user input in following manner.
+WELCOME TO CRS APPLICATION
+++++++++++++++++++++++++++++++++++++++++++++
+MAIN MENU
+1.LOGIN
+2.REGISTRATION FOR STUDENT
+3.UPDATE PASSWORD
+4.EXIT
+When press 1
+ENTER USERNAME
+ENTER PASSWORD
+ENTER ROLE
+If the role is admin
+WELCOME TO ADMIN MENU
++++++++++++++++++++++++++++
+1.APPROVE TO STUDENT
+2.ADD COURSE
+3.ADD ADMIN etc….
+If the role is student
+WELCOME TO STUDENT MENU
++++++++++++++++++++++++++++++++++++++
+1.
+2.
+
+
+
+Demo 1 :-- with hard coded data manipulation
+             Client -> service -> bean
++++++++++++++++++++++++++++++++++++++++++++
+Notes
+Array in java – we can implement array in java in 3 ways
+1.	Data type array – int a[]
+2.	Primitive type array – (primitive are all data type class which contains the object) – String names[]
+3.	Custome array – it create as per and perform the basics
+++++++++++++++++++++++++++++++++++++++++++++++++
+Task 3- create the array of customer with user specific choice for records from the scanner class and perform the following operation.-->
+        
+1.CreateCustomer
+2.UpdateCustomer(index)
+3.ListCustomer
+4.deleteCustomer(index)
+
+Note- design the menu for performing all respective operations.
++++++++++++++++++++++++++++++++++++++++++++++++++++
