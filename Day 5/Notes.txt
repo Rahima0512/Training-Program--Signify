@@ -1,0 +1,27 @@
+
+20-02-2023
+The JDBC API:
+1.We use JDBC API 4.0 for database interaction in java platform.
+Using this API we can interact various kind of database like Mysql server,Postgre,tera data ,Derby,Oracle etc.
+3.FOr interaction with database we use different kind of statement:
+1.1Statement :It is not preferable now adays because of SQL injection drawback
+1.2Prepared statement:Preferable
+1.3 Call able statement:Stores procedure call(Created from the database site)
+4.We use the respective database driver in the form of jar with relevant database in java application.
+5.This database driver support type 4 driver in javacode implementation.
+
+TASK 5:
+Create the schema with the name of CRS database in which identify the maximum table structure based on the use case and the class diagram 
+NOTE: Just define all database in small alphabet(no camel case)
+
+Define the primary and foreign key 
+
+TASK 6:
+
+In the package of com.signify.dao define all the respective interface with the implementationof class with respective operation belongs to the use of CRS application.
+	AdminDAOInterface
+	AdminDAOImplementation
+	StudentDAOInterface
+	StudentDAOImplementation
+	
+Remove the collection class
