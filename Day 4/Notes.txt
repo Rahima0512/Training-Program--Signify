@@ -1,0 +1,67 @@
+17-02-2023
+
+Next topic:->
+1.Abstract class
+2.Final Modifier
+3.Interface implementation
+++++++++++++++++++++++++++++++++++++++++
+
+1.Abstract class: It is a complete class which contains the implemented/non implemented methods
+	1.1 We can extend the abstract class @ single level
+	1.2 We can't create an object of abstract class !
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+In Java we can achieve various kind of inheritence at different levels:
+	1.1 Single level
+	1.2 Multi level
+	1.3 Hierarchical
+	1.4 Multiple 
+Assignment Create various dummy class with Name A,B,C,D with some methods & achieve the various kind of inheritence
+	1.Single
+	2.multiple
+	3.multilevel
+	4.Hybrid
+	5.Hierarchical
+Final is a very important keyword in java to restrict inheritence.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1.In are using for the declaration of the services which has to implement in various ways
+2.We can create an interface with the help of interface keyword in java.
+3. We cann create the instance of the interface but we can't instantiate it.
+4.In most of the java project development we use interface because it will give us flexible implementation.
+
+Task 3:
+
+Create the relevant interface based on the CRS services in the project and implement those services in operational classes
+Example:AdminInterface ->Implement->inside the AdminServiceOperation
+
+NOTE: In the client menu create the instance of the interface in all places.
+
+Final push in the git
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COllection and Generics
+
+collection is evolved form of array. It has optimized algo
+it is a object which contains multiple object at a time
+Now we are useing collection witrh generics to make typesafe the collection object and is represented by <>
+We will focus java 1.8 or 1.11 for further project implementstion and data manipulation. The commonly used collection for data manipulations are
+list set and map whuch will implement in various ways are various classes.
+
+All collection interfaces is a part of java.util package.
+
+--> List is an interface which can be implemented anf a linked list,vector
+    7.1 List contain the duplicate element inside the collection
+        It contains data in the sequential manner
+    Set is a different kind of collection that is implemented with hash set, sorted set
+    It randomly allocates memory for data
+---> Map is a superior collection which is implemented using various classes:hash table, tree map
+    It contains the collection in form of key and pair
+
+    Key will always but data can be duplicate.
+
+
+Hashset contain the data in random order
+Tree set contain the data in sorting order(Asc to dsc).
+
+Task 4:
+Start to implement all respective methods in CRS application of all the services
+For ex-> StudentServiceOperations,AdminServiceOperation etc using the collection with hard coded 
+
