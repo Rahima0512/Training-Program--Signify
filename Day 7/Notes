@@ -1,0 +1,29 @@
+22-02-2023
+1>Exception handling in java
+Exception is an unexpected condition which raise any realistic or unrealistic problem inside the program.
+
+There are twoo type of exception which exist:
+1.Exception->Always be handled by Application
+2.Error-> It is always handled by Operating system.
+
+2>In exception handling in java code we basically prefer 5 important keyword:
+	1.Try
+	2.Catch
+	3.Finally
+	4.Throw
+	5.Throws
+	
+3> The super class in exception hierarchy in java container is Throwable.This throwable class which is a very important class in exception hirerachy this class decides the 
+type of object in unexpected condition of the execution of the program whether it is a error or an exception.
+
+NOTE: In Enterprise projects we can handle the exception in two ways.
+	1.Using java container->Handled by jvm
+	2.Java container with custom exception framework with custom messages.->Handled by custom message by developer.
+
+TASK 7:Create the package in the crs folder structure with name com.signify.exception and define and develop all respective custom exception inside this package
+for example:User Not Found Exception
+	Course Not Assigned Exception
+	Student Not Approved Exception
+	Map all respective exception to the service layer of the crs application
+	
+	
