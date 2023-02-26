@@ -1,0 +1,49 @@
+24-02-2023
+
+Why Spring?
+1>Spring is an enlarged enterprise community that provides various libraries for developing the enterprise application
+
+Enterprise application:B2B and B2C application
+
+2>Spring is an open-source community that provides various solutions mentioned below:
+	1. Security
+	2. Enterprise development
+	3. Integration
+	4. Batch 
+	5. Mobility
+	etc...
+	
+3>Spring provides some ready-made boilerplate of code with flexible and easy configuration with proper dependency
+
+4>The official website of Spring is Spring.io.
+
+5>When we do the development in Spring we use 2 important build tool
+
+	1.Maven(Apache)✅-> Configuration written in XML
+	2. Griddle -> Configuration written in JSON
+
+6>In Spring development we use EXtension Spring boot for creating the project and deployment
+	Spring Development :-->Spring Framework + Spring Boot
+
+7>In Spring development internally used Apache HTTP server.
+
+8>Spring is a core framework which contains various extensions or branches for development :
+	1. Web Development:--- Spring MVC
+	2. Web Service:---> Spring REST
+	3. Batch:---> Spring Batch
+	4. ORM/JDBC:--->Spring Data
+	5. Security:---> Spring Security Management Module
+
+9> Spring Starter with an extension of STS is used to make skeleton of the project
+
+Src/main/java->This folder contains  all the respective java source file.
+
+Src/main/resource-->This folder contains  all the respective properties and xml files.
+
+Src/test/java-->This folder contains  all j unit test cases belongs to the Spring Services
+
+JRE System Library-->
+Maven Dependencies ->All relevant project basis dependency pom.xml(project object model)
+
+src-> Below the folder main and test all the class file are there
+pom.xml->This is very important file for Maven this file contain all the project form of dependency in xml format.
