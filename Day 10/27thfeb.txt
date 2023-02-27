@@ -1,0 +1,63 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+27-02-2023
+
+10>Spring Framework build on some design patterns like factory abstract factory,DI(Important)[Dependency Injection]
+
+(Rambagh,Goog)-OOPs books very good.
+
+OODesign.com
+
+11>***********Solution of reoccuring problem is called design pattern***********
+12>Combination of libraries using some design patterns creates a framework. eg. Spring,Apache.
+
+13>In Spring Development we use two kind of configuration design:
+	1.XML Configuration
+	2.Annotation(Predefined rules by Spring)
+14> Annotation used in development:
+	- @SpringBootApplication: used to up the spring application
+	- @Configuration: this annotatio use to configure the module configuration in spring project
+	- @EnableAutoConfiguration: this annotation enable the depended module in psring app by default
+	- @Bean: In it represents the java java class in spring as bean component
+	- @ComponentScan: it scans all the component in spring project to the specific package
+	- StereoType Annotation:
+		1. Spring component: @Component
+		2. Spring Service: @Service
+		3. Spring DAO: @Repository
+		4. Spring RestController: @RestController
+		5. Spring Controller: @Controller
+	-@Autowire: it is used to inject dependency
+
+-> REST in an architectural style (Representational State Transfer) which helps us to develop the respective application as web services
+-> Spring REST has written on top of the JSRX API which developed by the sun microsoft or oracle
+-> Using spring REST we can transform the java objec in four important MIME (Multipurpuse Internal Mail Extensions) ex: json, xml, txt
+-> Spring REST helping us to develop the nature of web application which is based on client-server architecture
+-> When we are going to develop REST application we use REST Controller which is annotated by REST Controller Annotation
+-> In our earlier application transformation, the following architectural flow
+	Client (REST Controller) -> Service ->    DAO -> Database 
+	@REST Controller         -> @Service -> (Repository) -> Database
+	
+This is demo:	
+	DEMO 1: Hello world application using Spring REST
+	Demo 2-Curd application of mgmt
+For CURD operation :
+	1.Create ->@PostMapping
+	2.Update -> @PutMapping
+	3.Delete ->@DeleteMapping
+	4.Fetch-> @GetMapping
+	
+Request Mapping:All those annotation are squezed and concised  in one annotation represent by the @RequestMapping
+
+For Managing the REST operation we use 2 important client:
+	1.POSTMAN
+	2.Advance REST Client
+
+Create and Copied all respective packages  from pos application in the newly created Project  CRS-Signify-SpringRest-Group-D
+Add create a new package com.signify.restcontroller
+Note:Create all the controller
+	AdminRestController
+	StudentRestController
+	
+	
+	
+	
+	
