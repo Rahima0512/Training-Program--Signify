@@ -1,0 +1,67 @@
+28-02-2023
+
+1.In the Front-End Development we are using two important terms:
+	1.UI:--
+	2.UX:-- It has various parameter which has to be considered by developers:
+		1.Look and feel(Bootstrap)
+		2.Performance
+		3.Accesibility
+		4.Responsiveness
+2.For making the UI/UX better there are ample of framework in the Market:
+	1.Angular(Google)
+	2.React(FB)
+	3.IBMDozo(IBM)
+	4.JQuery(Microsoft)
+	
+3.There are two type of javascript we use in development:
+	1.Vanilla javascript
+	2.Object-Oriented javascript
+
+4.There are two types of javascript object:
+	1.Internal:Created by javascript at runtime error,document,navigator,console etc.
+	2.External :Created as per need basis var a,b,c,d.
+
+5.There are 3 type of javascript we use in development:
+	1.Internal:
+	2.External:
+	3.Inline
+
+6.There are various version in javascript used in development :--->
+	ES 1.1 // ES 1.2 // ES 1.3 // ES 1.4 // ES 1.5 // ES 1.6 // ES 1.7 // ES 1.8
+	
+	ES 6 latest version of javascript
+7.Now a days we use modern javascript tools/compiler in modern development
+	1.bable:--open source :-- React -- Facebook : https://reactjs.org
+	2.TypeScript:--Microsoft :-- Angular -- Google : https://angular.io
+	
+	`		Angular 13=ES6 +TypeScript + New Feature of Angular A13
+
+8.In javascript we have to create the constructor using the constructor keyword
+
+9.There is 2 type of constructor:
+	1>Default
+	2>Parameterized constructor
+	
+NOTE:At a time we can  create either default or parameterized constructor
+
+NOTE:In ES6 we can define the properties and method in 3 ways:
+	1.Private properties and method:-- #keyword
+	2.Public properties and method :-- this keyword
+	3.Previledged properties and method :-- no keyword
+	
+10.Similar to the friend function which responsible to expose the private stuff outside the role of the class 
+11.The priviledge method nature is by default public.
+12.Prototype is a reserved keyword in javascript which is used in to create extension of the class without modification.
+
+13.Scope of prototype is public by default.
+
+14.Javascript promotes all type of inheritance except multiple inheritance
+
+TASK 11:
+	Develop the scientific cal in ES 6 Development with 2 important classes:
+	1.BasicCal:All basic methods example-add sub mul div
+	2.SciCal:Contains all the -log/sin/cos/tan/ex etc
+	
+This task use all the concept of Class/constructor/prototype/method/inheritance !
+
+15.For documenation view search -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/acos
