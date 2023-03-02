@@ -1,0 +1,37 @@
+01-03-2023
+
+WHY TypeScript?
+1.TypeScript is a modern compiler and modern javascript language which is wrappering up on top of the javascript tools 
+2.TypeScript itself is javascript with modern rules and regulation
+3.We need to install the typescript using npm extension in the node in the following command:
+	1.npm install -g typescript
+	2.tsc --version
+4.TypeScript is providing us the next level of modern development based on add on concept in javascript:
+	1.New level of modifiers:like public private protected read only
+	2.Enum
+	3.Varieties of function with default and optional parameter:Interface generics etc.
+5.We can create TypeScript file with .ts extension
+
+HOW TS COMPILER WORKS:
+	source file(.ts)-------> compile with tsc --------> convert to ES5 javascript 
+	
+TASK 12:
+	Convert the above assignment in TypeScript with all the rules followed by earlier example
+
+ANGULAR:
+1.Angular13 is UI/UX framework based on MVC pattern
+MVC [Model-setter getter]
+V stands for template in angular 
+C stands for controller
+
+2.In project creating of angular we generally use Angular CLI which is managing the complete life cycle of angular project -build/deploy/test etc
+3.For installation of angular CLI we use the following command:
+	1.npm install -g @angular/cli -takes latest version
+	2.npm install -g @angular/cli@13.2.0
+	3. ng --version
+4.angular cli & NPM are similar to maven which are maintaining the complete angular lifecycle project .
+Navigation routing 
+ng new demoproject
+cd MyPracticeAngular
+ng serve 
+copy url open it
