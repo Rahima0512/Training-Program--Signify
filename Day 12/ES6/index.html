@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    //define the class in javascript
+    class Person{
+        //Private can declare at class level properties 
+        #test;
+        constructor(name,age)
+        {
+            this.name=name;
+            this.age=age;
+            this.#test=100;
+            console.log("Person object is inint-->");
+            console.log("Name of the person:--> "+this.name);
+            console.log("Age of the person:--> "+this.age);
+            console.log("Print the private here:--> "+this.#test);
+        }
+        //private method declare here
+        #stuffPrivate()
+        {
+            console.log("Call the private method");
+            return this.#test;
+        }
+        //define the public method here:
+        getConCat()
+        {
+            console.log("Call the public method");
+            return this.ConCat();
+
+        }
+        ConCat()
+        {
+            return "Name of the Person "+this.name+" Age of the Person "+this.age;
+        }
+        //priviledge function
+        preMethod()
+        {
+            console.log("This method expose private method outside the scope of the class priviledge");
+            return this.#stuffPrivate();
+        }
+        //static impl
+        static mystatic()
+        {
+            return "I am the Static imple-->";
+
+        }
+
+    }
+    //End the definition of class & use prototype to get write the extension in person class 
+    //Syntax to add prototype
+    Person.prototype.test1=200;
+    Person.prototype.sayhello=function(){
+        console.log("CReate the extenion using protype is here -->");
+        return this.test1;
+
+    }
+
+    ///Inheritance here
+    class Student extends Person{
+        testStudentMethod()
+        {
+            return "I am the student class here-->";
+        }
+
+    }
+    //create an instance of the person class here
+    //let p=new Person('Full stack training',15);
+    let s=new Student('Full stack training',15);
+
+    //call public method here
+    console.log("Call the public method here -->"+s.getConCat());
+    //call the priavte method here
+
+    console.log("Call the private one here-->"+s.preMethod())
+
+    //call the static
+    console.log("Call the static impl -->"+Person.mystatic());
+
+    //call the prototype method with object
+    console.log("Call the prototype here-->"+s.sayhello());
+    //Call the student class method here
+    console.log("Call the student class method here"+s.testStudentMethod());
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>
