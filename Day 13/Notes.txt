@@ -1,0 +1,94 @@
+02-03-2023
+ng serve :-- Execution of angular :
+	It will create a bundle and chunks of file and deploy to the node HTTP server.
+
+Node=npm + V6 javascript engine + HTTP server
+
+Execution of ng serve command chunk of file  with the following browser url http://localhost:4200/
+
+Folder structure of angular:
+	node_module -> it contains all the dependency of angular application based on the entry of package.json(Similar to com.xml/web.xml in backend web application.
+	
+	src -> It contain all respective js code of angular component services/pipe/directives/modules etc..
+	
+NOTE:The angular application contain various components for angular app development
+	component -> represent by @Component
+	Service -> @Injectable
+	Module ->@Ngmodule
+	pipe(filter) ->@pipe
+	Directive ->@directive
+		SUBNOTE:
+			Component:@Component When ever we are creating a component in angular it always created 4 important file :
+				1.Component.ts:Contains the business logic of Angular component.
+				2.Component.html:it contains the template of the component.
+				3.Component.css:It contain the CSS rule for the look and feel of the component.
+				4.Component.spec.ts:It contain the unit testing rule of this angular component.
+		SUBNOTE:
+			In this app folder there are 2 most important file which will manage the complete angular module configuration 		//check
+				1.App.module.ts : This file contains all the components\service\module\pipe\directive\configuration further this file contain 4 options:
+					1.1.Declaration : Inside the declaration section of angular bracket [] we need to inject bracket bracket register 
+					the angular component pipes directive.
+					1.2.Imports : Inside this section we need to import all the angular based dependencies 
+					1.3.Providers : Inside this section we need to configure or inject the angular services  
+					1.4.Bootstrap : It is a very important configuration section in which we need to configure the entry point of angular application.
+					
+					SUBNOTE:
+					which contains 3 important properties:
+					1.Selector: It is refered the angular component as JSX syntax for ex :if the component			//check
+						then we have to refer the component in the html -> <XYZ>
+						
+					2.Template url : It will refer the respective html inside that component. 
+					3.Style url : It will refer the css file inside the component
+					
+		Inside the assets folder we have to place all the respective jpg file and png files etc..
+		
+	Environment: We need to setup the production testing and dev in this folder.
+	Index.html: This the first entry point where the first angular component render  using JSX syntax.
+	main.ts : This is the main project file where we need to configure the angular app.module.ts.
+	polyfils.ts : This file contains all the dependencies of browser incompatibilities.
+	style.css : This is the centralized file of angular application in which we need to configure global css which would be applicable to entire angular project.
+	angular.json : This is very important file in angular which contain all the configuration of angular project with entry point pollyfills\typescript compiler etc..
+	karma.config.js :  This file contains all the testing configuration of angular project
+	package .json : This file similar to maven com.xml\web.xml which contain all the dependencies and dev dependencies of the project 
+	tsconfig.json : This contain all the typescript configuration target and runtime with set of compiler / parameter
+	tsconfig.app.json: This file extending the tsconfig.json with relevant compiler option with typescript with tablet runtime in  finally bundled for deployment \\check
+	
+	Flow of application :
+		ng serve ->read package.json/angular.json -> load the main.ts -> it renders index.html -> component which is configured inside app.module.ts
+	
+	Demo 1: 	1.Data binding in angular : In angular we can do the data binding in two ways:
+					1.1 Oneway binding : {{}} this is called angular expression 
+					1.2 Twoway binding : We will use ngModel directive to do the twoway binding and model binding in angular
+					1.3 Modal binding :
+					
+					Events and Binding in angular : In the component 
+			2.Angular forms
+				There are two type of forms in angular:
+					1.Template driven form : It is represented by ngForm directives
+					2.Reactive form : These are complex form which has to be created with internal angular classes like FormControl and FormBuilder. 
+			Usually for the look and feel we use some external libraries :
+				1.Bootstrap : Prefred ☑️
+				2.PrimeNg :
+				3.Material :
+			3.Angular MVC : Customer management example
+				M : customer.ts
+				V : component.html
+				C : component.ts
+	
+	We can create all the angular components using the following commands:
+		ng g component nameofthecomponent
+	In angular if we want to iterate any array or collection obj we have to use for each loop in the form of angular directive with *ngForm
+	
+	1.Integration of service in angular:
+	2.Create a json server for service testing
+	3.Develop the routes for navigation
+	4.Share ppt and assignment of task module vise
+	
+	The flow of angular application ->browser ->component ->service -> json server/Spring Rest
+		npm init
+		npm install -g--save json-server
+		json-server --port 7000 --routes routes.json --watch users.json
+		
+	TASK:
+		Create a new project CRS-Signify-UI-UX-Group-D using angular cli and develop the dashboard of admin,student,user
+		
